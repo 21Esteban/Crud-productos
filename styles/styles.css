@@ -1,0 +1,123 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading */
+.title {
+  text-align: center;
+  color: #333;
+ margin: 40px 0 20px 0;
+  font-size: 2rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.productoForm {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productoForm__label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.productoForm__input,.productoForm__textArea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.productoForm__textArea{
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+#productosTable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#productosTable th, #productosTable td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 1rem;
+}
+
+#productosTable th {
+  background-color: #f7f7f7;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#productosTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#productosTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+#productosTable .acciones {
+  display: flex;
+  gap: 10px;
+}
+
+#productosTable .acciones button {
+  padding: 5px 10px;
+  background-color: #f0ad4e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+#productosTable .acciones button:hover {
+  background-color: #ec971f;
+}
